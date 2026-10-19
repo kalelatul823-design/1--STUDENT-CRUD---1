@@ -1,0 +1,160 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+/* General Styling */
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+/* Main Row */
+.row {
+  align-items: flex-start;
+}
+
+/* Form Card */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+/* Form Labels */
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Input Fields */
+.form-control {
+  height: 43px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Form Spacing */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Table Container */
+.table-responsive {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Table */
+.table {
+  margin-bottom: 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.table thead {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f7ff;
+}
+
+/* Edit Icon */
+.fa-pen-to-square {
+  color: #007bff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-pen-to-square:hover {
+  color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Delete Icon */
+.fa-trash {
+  color: #dc3545;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-trash:hover {
+  color: #a71d2a;
+  transform: scale(1.1);
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 10px;
+  }
+
+  .row {
+    margin-top: 15px !important;
+  }
+
+  .card-body {
+    padding: 15px;
+  }
+
+  .table-responsive {
+    padding: 10px;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+}
+
+
+
+
+.spinner{
+    position: fixed;
+    top : 0;
+    left : 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
